@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product 2 Details - Bila-Eayb</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Crinkled Chiffon</h2>
+
+        <div id="image-carousel">
+            <button onclick="showPreviousImage()">&lt;</button>
+            <img id="product-image" src="CC.jpg" alt="Product 2 Image 1">
+            <button onclick="showNextImage()">&gt;</button>
+        </div>
+
+        <p>Product 2 Description</p>
+
+        <h3>Specifications:</h3>
+        <ul>
+            <li>Specification 1: Value</li>
+            <li>Specification 2: Value</li>
+            <!-- Add more specifications as needed -->
+        </ul>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bila-Eayb. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Assuming Product 2 has only one image
+        setProductImages(["CC.jpg"]);
+    </script>
+</body>
+</html>

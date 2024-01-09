@@ -25,14 +25,14 @@ header h1 {
 }
 
 nav {
-    width: 100%; /* I made the navigation bar stretch across the page */
+    width: 100%;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center; /* I decided to center the navigation contents*/
+    text-align: center;
 }
 
 nav ul li {
@@ -75,6 +75,14 @@ nav a {
     border: 3px solid #3498db;
 }
 
+/* Add the following style for adjusting product image size */
+#product-image {
+    max-width: 80%;  /* Adjust this value to control the maximum width */
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
 footer {
     text-align: center;
     padding: 15px 0;
@@ -97,7 +105,6 @@ button {
     height: 100vh; 
 }
 
-
 .form-group {
     text-align: center; 
     margin: 10px 0;
@@ -107,7 +114,6 @@ label {
     display: block; 
 }
 
-
 input[type="text"],
 input[type="email"],
 textarea {
@@ -115,7 +121,6 @@ textarea {
     padding: 8px;
     box-sizing: border-box;
 }
-
 
 textarea {
     height: 150px; 
